@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<title>courtesycalling</title>
+		<style>
+			body {font-family: Arial, sans-serif;text-align: center;}
+			h2, h3 {margin: 0.5rem 0;}
+			table {border-collapse: collapse;width: 100%;}
+			tr:nth-child(odd) {background-color: whitesmoke;}
+			td {padding: 0.5rem;}
+			ul {text-align: left;margin: 0.5rem;padding: 1rem;}
+			.parent {max-width: 960px;margin: auto;}
+			.header-image {height: 2rem;}
+			.struck {text-decoration: line-through;}
+			.flexbox-vertical {display: flex;flex-direction: column;align-items: center;}
+			.flexbox-vertical > div {margin: 0.4rem 0;}
+			.flexbox-horizontal {display: flex;flex-wrap: wrap;}
+			.flexbox-horizontal > * {margin: 0 0.5rem;}
+			.cover-image {height: 11rem;width: fit-content;}
+			.footer-image {background-image: url("favicon.ico");background-size: contain;height: 1rem;width: -moz-available;width: -webkit-fill-available;}
+			@media only screen and (max-width: 768px) {tr {display: flex;flex-direction:column-reverse;}}
+		</style>
+	</head>
+	<body>
+		<div class="flexbox-vertical parent">
+			<h1>
+				<img src="favicon.ico" class="header-image"/>
+				courtesycalling's website
+				<img src="favicon.ico" class="header-image"/>
+			</h1>
+			<div class="flexbox-vertical">
+				<h2>Social media</h2>
+				<div class="flexbox-horizontal">
+					<a href="https://courtesycalling.tumblr.com">tumblr</a>
+					<a href="https://bsky.app/profile/courtesy.bsky.social">bsky</a>
+					<a href="https://courtesy.itch.io">itch.io</a>
+					<a href="https://twitter.com/thetruecourtesy" class="struck">twitter (inactive)</a>
+				</div>
+			</div>
+			<div class="flexbox-vertical">
+				<h2>Projects</h2>
+				<div>Coming soon...</div>
+			</div>
+			<div class="flexbox-vertical">
+				<h2>Games</h2>
+				<table>
+					<tr>
+						<td>
+							<h3>Ingolstadt</h3>
+							<ul>
+								<li>Create a monster.</li>
+								<li>A few minutes long.</li>
+								<li>Created with sublimehouse and Wynton Yang.</li>
+								<li>Programmed by me.</li>
+								<li><a href=https://sublimehouse.itch.io/ingolstadt>Play in browser or download for Windows on itch.io</a></li>
+							</ul>
+						</td>
+						<td>
+							<img src="https://img.itch.zone/aW1nLzE2MDUxMjA4LnBuZw==/315x250%23c/R1Q7nK.png" alt="Ingolstadt cover art" class="cover-image"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h3>Pbouxhkiir Night on the Primox Alpha</h3>
+							<ul>
+								<li>Wager the fate of the Earth in a friendly game of Pbouxhkiir.</li>
+								<li>Several minutes long.</li>
+								<li>Made with Wynton Yang and computeruser for Pizza Jam 10.</li>
+								<li>Winner of Pizza Jam 10!</li>
+								<li>Art, co-writing, and some programming by me.</li>
+								<li><a href=https://computeruser.itch.io/transmission-received>Play in browser on itch.io</a></li>
+							</ul>
+						</td>
+						<td>
+							<img src="https://img.itch.zone/aW1nLzE0MDY4NTQ5LnBuZw==/315x250%23c/HY1sb1.png" alt="Pbouxhkiir Night cover art" class="cover-image"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h3>Transmission Received</h3>
+							<ul>
+								<li>Decode an alien transmission.</li>
+								<li>Less than a minute long.</li>
+								<li>Made with computeruser and Wynton Yang for the No Words Jam 2023.</li>
+								<li>Art and some programming by me.</li>
+								<li><a href=https://computeruser.itch.io/transmission-received>Play in browser on itch.io</a></li>
+							</ul>
+						</td>
+						<td>
+							<img src="https://img.itch.zone/aW1nLzEzNzY4NDg3LnBuZw==/315x250%23c/pJrAUz.png" alt="Transmission Received cover art" class="cover-image"/>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="footer-image"></div>
+		</div>
+	</body>
+</html>
