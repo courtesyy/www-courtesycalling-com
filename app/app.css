@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0.5rem;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+td {padding: 0.5rem;}
+ul {
+    text-align: left;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+.parent {
+    max-width: 960px;
+    margin: auto;
+}
+.header-image {
+    height: 2rem;
+    padding: 0 1rem;
+}
+.flexbox-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexbox-vertical > div {margin: 0.4rem 0;}
+.flexbox-horizontal {
+    display: flex;flex-wrap: wrap;
+}
+.flexbox-horizontal > * {margin: 0 0.5rem;}
+.cover-image {
+    height: 11rem;
+    width: fit-content;
+}
+.footer-image {
+    background-image: url("/home.ico");
+    background-size: contain;
+    height: 1rem;
+    width: -moz-available;
+    width: -webkit-fill-available;
+}
+.struck {
+    text-decoration: line-through;
+}
+@media only screen and (max-width: 768px) {
+    tr {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
