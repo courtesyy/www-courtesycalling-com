@@ -26,12 +26,14 @@ export default function Home() {
 					<a href="https://courtesycalling.tumblr.com">tumblr</a>
 					<a href="https://bsky.app/profile/courtesy.bsky.social">bsky</a>
 					<a href="https://courtesy.itch.io">itch.io</a>
+					<a href="https://github.com/courtesyy">github</a>
 					<a href="https://twitter.com/thetruecourtesy" className="struck">twitter (inactive)</a>
 				</div>
 			</div>
 			<div className="flexbox-vertical">
 				<h2>Projects</h2>
 				<div><Link to="https://aperturelogo.courtesycalling.com">Aperture Logo Generator</Link></div>
+				<div><Link to="https://friendnote.courtesycalling.com">Friendnote</Link></div>
 			</div>
 			<div className="flexbox-vertical">
 				<h2>Games</h2>
